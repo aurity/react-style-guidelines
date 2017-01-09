@@ -23,6 +23,11 @@ export default class Example extends Component {
     }
   }
 
+  onChangeColor = () => {
+    const { isGreen } = this.state
+    this.setState({ isGreen: !isGreen })
+  }
+
   render() {
     const { textFromStore, onExampleClick, counter } = this.props
     const { isGreen } = this.state
@@ -31,7 +36,8 @@ export default class Example extends Component {
         <p>Hello Example!</p>
         <p>This is text from store: &apos;{textFromStore}&apos;</p>
         <p>This is my counter: {counter}</p>
-        <button onClick={onExampleClick}>Click me!</button>
+        <button onClick={onExampleClick}>Click me to increase counter!</button>
+        <button onClick={this.onChangeColor}>Click me to change color!</button>
 
         <div>
           <ExampleStateless

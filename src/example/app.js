@@ -1,12 +1,8 @@
 import React from 'react'
-import ExampleStateless from './example-stateless/example-sateless'
+import ExampleContainer from './example.container'
 
 export default function App() {
   return (
-    <div>
-      <ExampleStateless text="Text via props">
-        Hello child from stateless
-      </ExampleStateless>
-    </div>
+    <ExampleContainer />
   )
 }

@@ -8,7 +8,7 @@ import Example from './example'
 chai.use(chaiEnzyme())
 
 describe('<Example>', () => {
-  it('Initial state isGreen ===  true', () => {
+  it('Initial state isGreen === true', () => {
     const wrapper = shallow(getExample())
     expect(wrapper.state().isGreen).to.equal(true)
   })
@@ -30,9 +30,20 @@ describe('<Example>', () => {
     const wrapper = shallow(getExample({ onExampleClick }))
 
     // we expect only one button
-    expect(wrapper.find('button').length).to.equal(1)
-    wrapper.find('button').simulate('click')
+    expect(wrapper.find('button[children="Click me to increase counter!"]').length).to.equal(1)
+    wrapper.find('button[children="Click me to increase counter!"]').simulate('click')
     expect(onExampleClick.calledOnce).to.equal(true)
+  })
+
+  it('"onChangeColor" change state to false from true', () => {
+    const wrapper = shallow(getExample())
+    wrapper.setState({
+      isGreen: true,
+    })
+    // we expect only one button
+    expect(wrapper.find('button[children="Click me to change color!"]').length).to.equal(1)
+    wrapper.find('button[children="Click me to change color!"]').simulate('click')
+    expect(wrapper.state('isGreen')).to.equal(false)
   })
 
   it('renders child with class "my-paragraph" when "isGreen" === true', () => {
