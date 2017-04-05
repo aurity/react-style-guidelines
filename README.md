@@ -56,7 +56,7 @@ There are many (too many!) ways to write React components so to make sure we all
 ## Working with repositories
 If you've copied a project repository, cloned it down to your local system, and added a Git remote to your clone that point to the original repository on GitHub, now you're ready to make some changes in code. Far as you will be making changes to your local Git repository and collaborate with others on the same repo, you should use a branch.
 
-The flow looks like this :
+The flow looks like this:
 1. Create and checkout a new branch.
 2. Make changes.
 3. Commit your changes to the branch.
