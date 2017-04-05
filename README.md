@@ -8,7 +8,7 @@ There are many (too many!) ways to write React components so to make sure we all
 * [More info](#more-info)
 * [Naming conventions](#naming-conventions)
 * [File structure](#file-structure)
-* [Working with repositories](https://github.com/aurity/react-style-guidelines/tree/RD-24/docs/gitflow)
+* [GitFlow documentation](https://github.com/aurity/react-style-guidelines/tree/RD-24/docs/gitflow)
 
 ## More info
 - Our code style is mainly based on AirBnb guidelines https://github.com/airbnb/javascript/blob/master/react/README.md
