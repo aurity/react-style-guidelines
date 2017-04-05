@@ -37,7 +37,7 @@ If you're created a pull request from a branch within a repository. To create a 
 Go to the repository page on GitHub and click on "Pull Request" in the repo header:
 ![create-pull-request](https://i.gyazo.com/2d81bc4f355f47f375e33174fb9339c3.png)
 
-Use the base branch drop-down menu to select the branch you'd like to merge your changes into.
+Use the base branch drop-down menu to select the branch you'd like to merge your changes into:
 ![select-branch](https://i.gyazo.com/9e44805dcb50ba138c7d655c17ae8ee9.png)
 
 Enter a title and description of the pull request.
@@ -57,4 +57,4 @@ Review process looks like:
 3. Share on slack and move into "Review" column in Jira.
 4. Minimum two persons will review the Pull Request.
 5. After review a ticket can be move in Jira.
-6. The successful proposed changes, can be merge to the head branch of the base branch that was specified in the pull request. 
+6. The successful proposed changes, can be merge to the head branch of the base branch that was specified in the pull request.
