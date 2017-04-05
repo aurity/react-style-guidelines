@@ -63,24 +63,24 @@ The flow looks like this :
 4. Push the changes to GitHub.
 
 To create a new branch and check it out (telling Git you will be making changes to the branch), use this command:
-`git checkout -b <name_of_your_new_branch>`
+### `git checkout -b <name_of_your_new_branch>`
 
 To push the new branch on GitHub:
-`git push origin <name_of_your_new_branch>`
+### `git push origin <name_of_your_new_branch>`
 
 As far as you make changes in the files, you will need to commit those changes using the command:
-`git add .`
-#Adds the files in the local repository and stages them for commit.
+### `git add .`
+>Adds the files in the local repository and stages them for commit.
 
 Commit the files that you have staged in your local repository:
-`git commit -m "Commit message"`
+### `git commit -m "Commit message"`
 
 Push the changes you made in that branch back to GitHub would look like this:
-`git push origin <name_of_your_new_branch>`
-#In this case, you are pushing the changes in the name_of_your_new_branch branch to origin remote.
+### `git push origin <name_of_your_new_branch>`
+>In this case, you are pushing the changes in the name_of_your_new_branch branch to origin remote.
 
 In case you want to push code to existing repository, in the last line you need specify the existing repository, for example on`master` branch:
-`git push origin master`
+### `git push origin master`
 
 #### You are welcome to ask any question in the [issues](https://github.com/aurity/react-style-guidelines/issues) page.
 
