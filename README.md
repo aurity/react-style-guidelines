@@ -79,7 +79,7 @@ Push the changes you made in that branch back to GitHub would look like this:
 ### `git push origin <name_of_your_new_branch>`
 >In this case, you are pushing the changes in the name_of_your_new_branch branch to origin remote.
 
-In case you want to push code to existing repository, in the last line you need specify the existing repository, for example on`master` branch:
+In case you want to push code to existing repository, in the last line you need specify the repository, for example changing the `master` branch:
 ### `git push origin master`
 
 #### You are welcome to ask any question in the [issues](https://github.com/aurity/react-style-guidelines/issues) page.
