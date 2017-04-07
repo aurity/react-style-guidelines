@@ -3,7 +3,7 @@
 * [Review Process](#review-process)
 
 ## Working with repositories
-If you've copied a project repository, cloned it down to your local system, and added a Git remote to your clone that point to the original repository on GitHub, now you're ready to make some changes in code. Far as you will be making changes to your local Git repository and collaborate with others on the same repo, you should use a branch.
+If you've copied a project repository, cloned it down to your local system, and added a Git remote to your clone that point to the original repository on GitHub, now you're ready to make some changes in code. Far as you will be making changes to your local Git repository and collaborate with others on the same repo, you should use a branch. Good way to manage your branches is using a [SourceTree](https://www.sourcetreeapp.com/).
 
 The flow looks like this:
 1. Create and checkout a new branch.
@@ -12,7 +12,7 @@ The flow looks like this:
 4. Push the changes to GitHub.
 
 To create a new branch and check it out (telling Git you will be making changes to the branch), use this command:
-### `git checkout -b <name_of_your_new_branch>`
+### `git checkout -b <feature/name_of_your_new_branch>`
 
 To push the new branch on GitHub:
 ### `git push origin <name_of_your_new_branch>`
@@ -46,7 +46,7 @@ Effective Pull Request looks like:
 1. Make it small and clean piece of code.
 2. Make sure all tests pass - ESLINT and tests before final commit.
 3. Checked and compare with ticket requirements before releasing to others.
-4. In description adding a link to Jira ticket.
+4. In description add link to Jira ticket, notes and if any screenshot (for that you can use [Gyazo](https://gyazo.com/)).
 
 ## Review Process
 Pull request are necessary to fostering code review.
