@@ -8,6 +8,7 @@ There are many (too many!) ways to write React components so to make sure we all
 * [More info](#more-info)
 * [Naming conventions](#naming-conventions)
 * [File structure](#file-structure)
+* [GitFlow documentation](https://github.com/aurity/react-style-guidelines/tree/RD-24/docs/gitflow)
 
 ## More info
 - Our code style is mainly based on AirBnb guidelines https://github.com/airbnb/javascript/blob/master/react/README.md
@@ -16,7 +17,7 @@ There are many (too many!) ways to write React components so to make sure we all
 - components - component-name.js
 - containers - component-name.container.js
 - styles - component-name.style.js
-- generic - `<component-name>-<type>.-<purpose>.<extension>` eg. `order-modal.container.js
+- generic - `<component-name>-<type>.-<purpose>.<extension>` eg. `order-modal.container.js`
 
 ## File structure
 ```
@@ -68,4 +69,3 @@ There are many (too many!) ways to write React components so to make sure we all
  - Example stateless component
  - Example component
  - Example container
- 
